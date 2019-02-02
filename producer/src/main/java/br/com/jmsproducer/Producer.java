@@ -32,8 +32,8 @@ public class Producer {
         connection.close();
     }
 
-    public void sendName(Person personInformation) throws JMSException {
-        String text = personInformation.toJson();
+    public void sendName(Person person) throws JMSException {
+        String text = person.toJson();
 
         TextMessage textMessage = session.createTextMessage(text);
 
