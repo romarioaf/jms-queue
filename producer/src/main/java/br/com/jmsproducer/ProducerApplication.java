@@ -5,7 +5,7 @@ import br.com.jmsproducer.model.Person;
 
 import javax.jms.JMSException;
 
-public class Application {
+public class ProducerApplication {
 
     public static void main(String[] args) throws JMSException {
 
