@@ -1,5 +1,7 @@
 study.iml
 /consumer/target
+/consumer/consumer.iml
 /producer/target
+/producer/producer.iml
 .idea/*
 workspace.xml
